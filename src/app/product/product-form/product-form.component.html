@@ -1,0 +1,14 @@
+<form>
+  <div class="example-container">
+    <mat-form-field>
+      <input matInput placeholder="Name" [(ngModel)]="product.name" name="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Manufacturer" [(ngModel)]="product.manufecturer" name="manufecturer">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Description" [(ngModel)]="product.description" name="description">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="submit()">Add Product</button>
+  </div>
+</form>
